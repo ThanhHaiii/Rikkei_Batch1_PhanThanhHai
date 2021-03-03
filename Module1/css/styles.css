@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image: url("../image/headerbg.png");
+    width: 100%;
+    height: 150px;
+}
+.header .logo a{
+    background-image: url("../image/logo.png");
+    display: block;
+    height: 90px;
+    text-indent: -500em;
+    width: 514px;
+    margin-top: 30px;
+}
+.header .cart{
+    background-image: url("../image/cart.png");
+    height: 55px;
+    position: absolute;
+    right: 0;
+    text-indent: -500em;
+    text-transform: uppercase;
+    top: 20px;
+    width: 55px;
+    cursor: pointer;
+    margin: 15px 200px 10px 0;
+    border: #9fcdff;
+}
+.header .topbar a{
+    color: #016600;
+
+}
+.header .topbar{
+    height: 22px;
+    background: rgba(216,216,216,.6);
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.header .topnav>li a{
+    float: left;
+
+}
+.header .topbar>li{
+    display: inline;
+}
+.header .topprofile>li a{
+    float: right;
+    margin-top: -15px;
+
+}
+.header .search .submit{
+    background: url("../image/searchbg.png") no-repeat scroll center center rgba(0,0,0,0);
+    border: medium none;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-indent: -500em;
+    width: 30px;
+    margin: -35px 180px 10px 10px;
+}
+#mainnav{
+    background-image: url("../image/menubg.png");
+}
+#mainnav .menu>li>a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+
+}
+#mainnav .menu{
+    text-align: justify;
+    height: 25px;
+    line-height: 40px;
+}
+#mainnav .menu>li {
+    position: relative;
+    width: 250px;
+    float: left;
+}
+#mainnav .menu>li a:hover{
+    background: #218838;
+}
+#mainnav .submenu{
+    box-shadow: 2px 4px 3px rgb(0 0 60%);
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    z-index: 9999;
+    width: 250px;
+}#mainnav .menu>li:hover .submenu{
+    display: block;
+     background-image: url("../image/menubg.png");
+ }
+#mainnav .submenu2{
+    background: url(../image/menubg.png);
+    box-shadow: 2px 4px 8px rgb(0,0,0.6);
+    display: none;
+    left: 250px;
+    position: absolute;
+    top: 0px;
+    z-index: 9999;
+    width: 250px;
+ }
+ #mainnav .submenu>li a:hover{
+     background: #218838;
+ }
+#mainnav .submenu>li>a{
+    background: none repeat scroll 0 0 #033801;
+    color: #fff;
+    display: block;
+    line-height: 28px;
+    margin-top: 1px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+#mainnav .submenu2>li>a {
+    background: none repeat scroll 0 0 #033801;
+    color: #fff;
+    display: block;
+    line-height: 28px;
+    margin-top: 1px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+ #mainnav .submenu>li:hover .submenu2{
+     display:block;
+ }
+
+
+.header .search .text{
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    color: #333;
+    float: right;
+    margin: -35px 0 0 8px;
+    padding: 2px;
+    width: 300px;
+}
+
+.header .topbar{
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 22px;
+}
+.header .topnav>li a:before{
+     content: "|";
+     padding: 0 15px;
+
+ }
+.header .topprofile>li a:before{
+    content: "|";
+    padding: 0 15px;
+}
+.header .topnav>li:first-child a:before{
+     content: " ";
+ }
+.header .topprofile>li:last-child a:before{
+    content: " ";
+}
+.clearfix::before,
+::after{
+    display: table;
+    content: " ";
+}
+ul,
+li{
+    list-style: none;
+}
+.wrapper{
+    margin:0 auto;
+    width: 1000px;
+}
+body{
+    background-image: url("../image/bg_pattern.jpg");
+}
+.slider-wrapper .carousel-inner .carousel-item{
+    margin: 10px 0 0 0;
+}
+.pagetitle {
+    color: #000;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    width: 888px;
+}
+.pagetitle a {
+    background: url("../image/lbcenter.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 22px 10px 35px;
+    position: relative;
+    text-shadow: 1px 1px 1px rgb(116 117 118);
+    text-transform: uppercase;
+}
+.pagetitle a:before {
+        background: url("../image/lbleft.png") no-repeat scroll 0 0 rgba(0,0,0,0);
+        content: " ";
+        display: block;
+        height: 85px;
+        left: -32px;
+        position: absolute;
+        top: 0;
+        width: 32px;
+        padding: 0;
+}
+.pagetitle a:after{
+    background: url("../image/lbright.png") no-repeat scroll 0 0 rgba(0,0,0,0);
+    content: " ";
+    display: block;
+    height: 85px;
+    left: 211px;
+    position: absolute;
+    top: 0;
+    width: 32px;
+    padding: 0;
+}
+.listbook{
+    background: url("../image/book_bg.png") repeat-y scroll 0 0 rgba(0,0,0,0);
+    margin: 10px auto 0;
+    padding: 0 50px;
+    width: 700px;
+}
+.book .price {
+    display: block;
+    font-size: 24px;
+    margin-top: 8px;
+    color: #0f5731;
+}
+.book .description {
+    height: 48px;
+    color: #434343;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 5px 0 0;
+}
+.book .price{
+    display: none;
+}
+.book .description{
+    display: none;
+}
+.book .name>a{
+    display: none;
+}
+.book .popup>a{
+    display: none;
+}
+.book {
+    float: left;
+    margin: 0 10px;
+    padding: 5px 0 71px;
+    position: relative;
+    height: 232px;
+}
+.book .image img {
+    height: 226px;
+    padding: 10px 0 0 30px;
+}
+.book .image1 img {
+    height: 200px;
+    padding: 0 10px;
+    margin: 100px 0 0 70px;
+}
+.book .image2 img {
+    height: 226px;
+    padding: 10px 0 0 30px;
+    margin: 150px 0 0 30px;
+}
+.book .image3 img {
+    height: 226px;
+    padding: 0 5px;
+    margin: 250px 0 0 80px;
+    display: none;
+}
+.footer {
+    background: url("../image/headerbg.png") repeat-x scroll 50% 0 rgba(0,0,0,0);
+    border-top: 8px solid rgba(216,216,216,.6);
+}
+.footermenu {
+    height: 200px;
+}
+ .footer .copyright {
+     text-align: center;
+     border-top: 4px solid rgba(216,216,216,.8);
+     color: #fff;
+     background: url("../image/menubg.png") repeat scroll 0 0 rgba(0,0,0,0);
+     line-height: 20px;
+     padding-bottom: 5px;
+ }
+.footermenu .socialbtn a {
+    display: inline-block;
+    margin: 80px 0 0 300px;
+    background: url("../image/shareicons2.png") no-repeat;
+    width: 45px;
+    height: 45px;
+    text-indent: -500em;
+
+}
+.footermenu .col {
+    float: left;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 280px;
+}
+.footermenu .col li {
+    background: url("../image/arricon.png") no-repeat scroll 0 center rgba(0,0,0,0);
+    border-bottom: 1px solid #c2c2c2;
+    padding: 10px 0 10px 30px;
+    margin: -10px;
+}
+.footermenu .col li a {
+    color: #0f5731;
+    font-size: 16px;
+    text-decoration: none;
+}
